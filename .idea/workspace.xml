@@ -4,11 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5866dca8-c743-4c82-a00a-8cff8521b4b1" name="Changes" comment="" />
+    <list default="true" id="5866dca8-c743-4c82-a00a-8cff8521b4b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/api/exlab/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/common/DataForApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/requests/ExlabRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/runners/CukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/stepDefs/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/stepDefs/User_StepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/apiFeature/Users.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/uiFeature/experience.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -18,7 +50,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2V7T91H3JjejRIOB6OVTAN18qMn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
@@ -28,9 +62,38 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\B4_Exlab_Api_Rvw_YA\src\test\java\api\exlab\utilities" />
+      <recent name="C:\Users\ASUS\IdeaProjects\B4_Exlab_Api_Rvw_YA\src\test\resources\features" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="B4_Exlab_Api_Rvw_YA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.exlab.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.exlab.runners" />
+      <option name="MAIN_CLASS_NAME" value="api.exlab.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
