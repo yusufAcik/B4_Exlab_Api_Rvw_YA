@@ -13,6 +13,8 @@ public class ExlabRequest {
     public static Response response;
     public static int userID;
     public static String token;
+    public static int experience_ID;
+    public static String experience_job;
 
     public static Response registerNewUser(String name,String email,String password,String about,String terms){
        response = given().accept(ContentType.JSON)
@@ -34,6 +36,9 @@ public class ExlabRequest {
                 .body(DataForApi.userExperienceBody(job, company, location, fromdate, todate, current, description))
                 .when()
                 .post(ConfigurationReader.get("postExperience"));
+
+        experience_ID=response.path("id");
+        experience_job=response.path("job");
 
         return response;
     }

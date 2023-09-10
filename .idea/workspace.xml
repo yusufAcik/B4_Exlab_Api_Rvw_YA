@@ -4,25 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5866dca8-c743-4c82-a00a-8cff8521b4b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/exlab/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/common/DataForApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/requests/ExlabRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/runners/CukesRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/stepDefs/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/stepDefs/User_StepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/utilities/ConfigurationReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/utilities/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/apiFeature/Users.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/uiFeature/experience.feature" afterDir="false" />
+    <list default="true" id="5866dca8-c743-4c82-a00a-8cff8521b4b1" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/exlab/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/exlab/requests/ExlabRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/exlab/requests/ExlabRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/exlab/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/exlab/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/exlab/stepDefs/Experience_stepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/exlab/stepDefs/Experience_stepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/apiFeature/Users.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/apiFeature/Users.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +54,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/B4_Exlab_Api_Rvw_YA/src/test/java/api/exlab/pages"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\B4_Exlab_Api_Rvw_YA\src\test\java\api\exlab\pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\IdeaProjects\B4_Exlab_Api_Rvw_YA\src\test\java\api\exlab\utilities" />
       <recent name="C:\Users\ASUS\IdeaProjects\B4_Exlab_Api_Rvw_YA\src\test\resources\features" />
@@ -103,6 +98,18 @@
       <option name="presentableId" value="Default" />
       <updated>1694185966163</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1694201154355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694201154355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
